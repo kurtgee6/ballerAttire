@@ -1,0 +1,77 @@
+
+/* logo of the page */
+.logo {
+    text-align: center;
+    margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 70px;
+    font-family: 'Rammetto One', cursive;
+    background-color: #152a2a;
+    color: #366b69;
+    text-shadow: #fff 0px 0px 1px ;
+}
+
+
+/**************************************************************************************************************/
+/*************************************** button styling and positioning ***************************************/
+/**************************************************************************************************************/
+
+
+
+/*  buttons to manipulate the character */
+.button-container {
+    text-align: center;
+    border-right: 1px solid black;
+    padding: 25px 10px;
+}
+
+button {
+    font-family: 'Rammetto One', cursive;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 60%;
+    background-color: #152a20;
+    color: #fff;
+    text-shadow: #000 0px 0px 1px ;
+}
+
+button:focus {
+    outline:none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+
+
+/**************************************************************************************************************/
+/*************************** character creation styling and positioning ***************************************/
+/**************************************************************************************************************/
+
+/* where users see the characters change */
+
+.character-background {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url("../images/background/bg-five.jpg");
+    background-repeat: no-repeat;  
+    background-size:100%;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+
+.avatar {
+    top: 5px;
+    left: 180px;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    z-index: 3;
+}
