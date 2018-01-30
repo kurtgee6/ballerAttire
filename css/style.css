@@ -1,4 +1,8 @@
 
+body {
+    background-color: azure;
+}
+
 /* logo of the page */
 .logo {
     text-align: center;
@@ -34,6 +38,7 @@ button {
     background-color: #152a20;
     color: #fff;
     text-shadow: #000 0px 0px 1px ;
+    border-radius: 10px;
 }
 
 button:focus {
@@ -41,7 +46,7 @@ button:focus {
 }
 
 button:hover {
-    background-color: #fff;
+    background-color: azure;
     color: #000;
     text-shadow: none;
 }
@@ -59,7 +64,7 @@ button:hover {
     padding: 0px;
     border: 1px solid black;
     position: relative;
-    background-image: url("../images/background/bg-five.jpg");
+    background-image: url("../images/background/bg-two.jpg");
     background-repeat: no-repeat;  
     background-size:100%;
     opacity: 0.9;
@@ -68,10 +73,10 @@ button:hover {
 
 
 .avatar {
-    top: 5px;
-    left: 180px;
-    width: 350px;
-    height: 500px;
+    top: 80px;
+    left: 220px;
+    width: 300px;
+    height: 400px;
     position: relative;
     z-index: 3;
 }
