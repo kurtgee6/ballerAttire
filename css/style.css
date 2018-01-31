@@ -175,6 +175,7 @@ button:hover {
 }
 
 #countDown {
+    font-family: 'Rammetto One', cursive;
     top: 20px;
     color: red;
     font-size: 230px;
