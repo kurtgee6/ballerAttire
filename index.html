@@ -17,6 +17,7 @@
 </head>
 <body>
 
+
     <!-- main content starts here -->
     <div class="container">
         <div class="row">
@@ -27,7 +28,7 @@
           </div>
 
           <!-- button placement -->
-          <div class="col-4" >
+          <div class="col-4" style="display:none" id="buttonView">
             <div class="button-container">
             <button id="hairButton">HAIR</button><br>
             <button id="skinButton">SKIN</button><br>
@@ -39,7 +40,7 @@
           </div>
 
           <!-- character placement -->
-          <div class="col-8 character-background">
+          <div class="col-8 character-background" style="display:none" id="avatarView">
             <!-- default character avatar -->
             <img src="images/skins/hispanic-race.png" id="avatar">
             <img src="images/hair/blank.png" id="hair">
@@ -49,6 +50,19 @@
           </div>
 
         </div>
+
+        <div id="startGameContainer">
+
+          <!-- start game button for the user to click to get into the avatar creation content -->
+          <button id="startGameButton" onclick="contentGameShows()">Start Game</button>
+          <!-- kobe -->
+          <img src="images/kobe-bryant.png" id="kobe">
+          <!-- lebron -->
+          <img src="images/lebron-james.png" id="lebron">
+
+        </div>
+
+
     </div>
 
     <!--JQUERY source-->

@@ -120,3 +120,58 @@ button:hover {
     position: relative;
     z-index: 4
 }
+
+/**************************************************************************************************************/
+/*******************************  start game styling and positioning ******************************************/
+/**************************************************************************************************************/
+
+#startGameContainer {
+    border: 1px solid black;
+    height: 500px;
+    background: url("../images/startgame-bg.png")no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#startGameButton {
+    top: 3%;
+    left: 33%;
+    position: relative;
+    font-family: 'Rammetto One', cursive;
+    font-size: 40px;
+    padding: 10px;
+    width: 30%;
+    height: 100px;
+    background-color: #152a20;
+    color: #366b69;
+    text-shadow: #000 0px 0px 1px ;
+    border-radius: 10px;
+}
+
+
+#startGameButton:focus {
+    outline:none;
+}
+
+#startGameButton:hover {
+    background-color: azure;
+    color: #000;
+    text-shadow: none;
+}
+
+#kobe { 
+    right: 375px;
+    top: 50px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+}
+
+#lebron {
+    top: 50px;
+    left: 130px;
+    width: 300px;
+    height: 450px;
+    position: relative;
+}

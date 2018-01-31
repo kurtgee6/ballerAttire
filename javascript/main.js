@@ -384,3 +384,39 @@ function accessoriesChange() {
         }
     }
 }
+
+//shows the creation character content
+function contentGameShows() {
+
+    //container div for start game
+    var startGameContainer = document.getElementById("startGameContainer");
+    //kobe image
+    var kobe = document.getElementById("kobe");
+    //lebron
+    var lebron = document.getElementById("lebron");
+    //var for start game button
+    var startGameButton = document.getElementById("startGameButton");
+    //var for hidden avatar view
+    var avatarView = document.getElementById("avatarView");
+    //var for hidden button view
+    var buttonView = document.getElementById("buttonView");
+
+    //if statement that changes view page of user
+    if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
+        //adding a pause when someone clicks on the start game button
+        setTimeout(function(){ 
+            
+        //SHOW view of character creation content shows
+        buttonView.style.display = "block";
+        avatarView.style.display = "block";
+
+        //HIDES the button to start the game
+        startGameContainer.style.display = "none";
+        startGameButton.style.display = "none";
+        kobe.style.display = "none";
+        lebron.style.display = "none";
+
+        }, 3000);
+    }
+}
+
