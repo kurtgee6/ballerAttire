@@ -1,19 +1,18 @@
 
 body {
-    background-color: azure;
+    background: url("../images/floor.jpg")no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* logo of the page */
 .logo {
     text-align: center;
-    margin: 10px 0px;
     padding: 5px;
-    border: 1px solid black;
-    font-size: 70px;
+    border-radius: 10px;
+    font-size: 120px;
     font-family: 'Rammetto One', cursive;
-    background-color: #152a2a;
-    color: #366b69;
-    text-shadow: #fff 0px 0px 1px ;
+    color: #fff;
+    text-shadow: #000 0px 0px 1px ;
 }
 
 
@@ -26,7 +25,7 @@ body {
 /*  buttons to manipulate the character */
 .button-container {
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid white;
     padding: 25px 10px;
     padding-top: 70px;
     padding-bottom: 45px;
@@ -37,10 +36,10 @@ button {
     margin: 15px 0px;
     padding: 10px;
     width: 60%;
-    background-color: #152a20;
+    background-color: #000;
     color: #fff;
     text-shadow: #000 0px 0px 1px ;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 button:focus {
@@ -48,9 +47,9 @@ button:focus {
 }
 
 button:hover {
-    background-color: azure;
-    color: #000;
+    color:#D3D3D3;
     text-shadow: none;
+    text-decoration: line-through;
 }
 
 
@@ -64,7 +63,7 @@ button:hover {
 .character-background {
     margin: 0px;
     padding: 0px;
-    border: 1px solid black;
+    border: 1px solid white;
     position: relative;
     background-image: url("../images/background/bg-two.jpg");
     background-repeat: no-repeat;  
@@ -126,9 +125,9 @@ button:hover {
 /**************************************************************************************************************/
 
 #startGameContainer {
-    border: 1px solid black;
+    border: 1px solid white;
     height: 500px;
-    background: url("../images/startgame-bg.png")no-repeat center center fixed;
+    background: url("../images/startgame-bg.jpg")no-repeat center center fixed;
     background-size: cover;
     z-index: 1;
     border-radius: 10px;
@@ -143,8 +142,9 @@ button:hover {
     padding: 10px;
     width: 30%;
     height: 100px;
-    background-color: #152a20;
-    color: #366b69;
+    background: url("../images/floor.jpg")no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
     text-shadow: #000 0px 0px 1px ;
     border-radius: 10px;
 }
@@ -155,9 +155,10 @@ button:hover {
 }
 
 #startGameButton:hover {
-    background-color: azure;
-    color: #000;
+    font-size: 42px;
+    color:#D3D3D3;
     text-shadow: none;
+    text-decoration: none;
 }
 
 #kobe { 
@@ -176,10 +177,10 @@ button:hover {
 
 #countDown {
     font-family: 'Rammetto One', cursive;
-    top: 20px;
+    top: 50px;
     color: red;
     font-size: 230px;
-    left: 43%;
+    left: 40%;
     width: 50px;
     height: 50px;
     margin: 0;
