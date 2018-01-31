@@ -56,22 +56,21 @@ function skinChange() {
 // hair array contains objects (includes all hair images)
 
 var hairs = [{
-    image: "images/hair/hair-one.png",
-    value: 1
-}, {
-    image: "images/hair/hair-two.png",
-    value: 2
-},{
-    image: "images/hair/hair-three.png",
-    value: 3
-},{
-    image: "images/hair/hair-four.png",
-    value: 4
-},{
-    image: "images/hair/blank.png",
-    value: 5
-}
-];
+        image: "images/hair/hair-one.png",
+        value: 1
+    },{
+        image: "images/hair/hair-two.png",
+        value: 2
+    },{
+        image: "images/hair/hair-three.png",
+        value: 3
+    },{
+        image: "images/hair/hair-four.png",
+        value: 4
+    },{
+        image: "images/hair/blank.png",
+        value: 5
+}];
 
 // grabbing the id button "hair" for click event
 
@@ -103,97 +102,96 @@ function hairChange() {
 // jersey array contains objects (includes all jersey images)
 
 var jerseys = [{
-    image: "images/jerseys/atlanta-hawks.png",
-    value: 1
-}, {
-    image: "images/jerseys/boston-celtics.png",
-    value: 2
-},{
-    image: "images/jerseys/brooklyn-nets.png", 
-    value: 3
-},{
-    image: "images/jerseys/charlotte-hornets.png",
-    value: 4
-},{
-    image: "images/jerseys/chicago-bulls.png",
-    value: 5
-},{
-    image: "images/jerseys/cleveland-cavaliers.png",
-    value: 6
-},{
-    image: "images/jerseys/dallas-mavericks.png",
-    value: 7
-},{
-    image: "images/jerseys/denver-nuggets.png",
-    value: 8
-},{
-    image: "images/jerseys/detroit-pistons.png",
-    value: 9
-},{
-    image: "images/jerseys/golden-state-warriors.png",
-    value: 10
-},{
-    image: "images/jerseys/houston-rockets.png",
-    value: 11
-},{
-    image: "images/jerseys/indiana-pacers.png",
-    value: 12
-},{
-    image: "images/jerseys/los-angeles-clippers.png",
-    value: 13
-},{
-    image: "images/jerseys/los-angeles-lakers.png",
-    value: 14
-},{
-    image: "images/jerseys/memphis-grizzlies.png",
-    value: 15
-},{
-    image: "images/jerseys/miami-heat.png",
-    value: 16
-},{
-    image: "images/jerseys/milwaukee-bucks.png",
-    value: 17
-},{
-    image: "images/jerseys/minnesota-timberwolves.png",
-    value: 18
-},{
-    image: "images/jerseys/new-orleans-pelicans.png",
-    value: 19
-},{
-    image: "images/jerseys/new-york-knicks.png",
-    value: 20
-},{
-    image: "images/jerseys/oklahoma-city-thunder.png",
-    value: 21
-},{
-    image: "images/jerseys/orlando-magic.png",
-    value: 22
-},{
-    image: "images/jerseys/philadelphia-sixers.png",
-    value: 23
-},{
-    image: "images/jerseys/phoenix-suns.png",
-    value: 24
-},{
-    image: "images/jerseys/san-antonio-spurs.png",
-    value: 25
-},{
-    image: "images/jerseys/toronto-raptors.png",
-    value: 26
-},{
-    image: "images/jerseys/utah-jazz.png",
-    value: 27
-},{
-    image: "images/jerseys/washington-wizards.png",
-    value: 28
-},{
-    image: "images/jerseys/portland-trailblazers.png",
-    value: 29
-},{
-    image: "images/jerseys/sacramento-kings.png",
-    value: 30
-}
-];
+        image: "images/jerseys/atlanta-hawks.png",
+        value: 1
+    }, {
+        image: "images/jerseys/boston-celtics.png",
+        value: 2
+    },{
+        image: "images/jerseys/brooklyn-nets.png", 
+        value: 3
+    },{
+        image: "images/jerseys/charlotte-hornets.png",
+        value: 4
+    },{
+        image: "images/jerseys/chicago-bulls.png",
+        value: 5
+    },{
+        image: "images/jerseys/cleveland-cavaliers.png",
+        value: 6
+    },{
+        image: "images/jerseys/dallas-mavericks.png",
+        value: 7
+    },{
+        image: "images/jerseys/denver-nuggets.png",
+        value: 8
+    },{
+        image: "images/jerseys/detroit-pistons.png",
+        value: 9
+    },{
+        image: "images/jerseys/golden-state-warriors.png",
+        value: 10
+    },{
+        image: "images/jerseys/houston-rockets.png",
+        value: 11
+    },{
+        image: "images/jerseys/indiana-pacers.png",
+        value: 12
+    },{
+        image: "images/jerseys/los-angeles-clippers.png",
+        value: 13
+    },{
+        image: "images/jerseys/los-angeles-lakers.png",
+        value: 14
+    },{
+        image: "images/jerseys/memphis-grizzlies.png",
+        value: 15
+    },{
+        image: "images/jerseys/miami-heat.png",
+        value: 16
+    },{
+        image: "images/jerseys/milwaukee-bucks.png",
+        value: 17
+    },{
+        image: "images/jerseys/minnesota-timberwolves.png",
+        value: 18
+    },{
+        image: "images/jerseys/new-orleans-pelicans.png",
+        value: 19
+    },{
+        image: "images/jerseys/new-york-knicks.png",
+        value: 20
+    },{
+        image: "images/jerseys/oklahoma-city-thunder.png",
+        value: 21
+    },{
+        image: "images/jerseys/orlando-magic.png",
+        value: 22
+    },{
+        image: "images/jerseys/philadelphia-sixers.png",
+        value: 23
+    },{
+        image: "images/jerseys/phoenix-suns.png",
+        value: 24
+    },{
+        image: "images/jerseys/san-antonio-spurs.png",
+        value: 25
+    },{
+        image: "images/jerseys/toronto-raptors.png",
+        value: 26
+    },{
+        image: "images/jerseys/utah-jazz.png",
+        value: 27
+    },{
+        image: "images/jerseys/washington-wizards.png",
+        value: 28
+    },{
+        image: "images/jerseys/portland-trailblazers.png",
+        value: 29
+    },{
+        image: "images/jerseys/sacramento-kings.png",
+        value: 30
+}];
 
 // grabbing the id button "jersey" for click event
 
@@ -225,97 +223,96 @@ function jerseyChange() {
 // jersey array contains objects (includes all jersey images)
 
 var shorts = [{
-    image: "images/shorts/atlanta-hawks.png",
-    value: 1
-}, {
-    image: "images/shorts/bostons-celtics.png",
-    value: 2
-},{
-    image: "images/shorts/brooklyn-nets.png", 
-    value: 3
-},{
-    image: "images/shorts/charlotte-hornets.png",
-    value: 4
-},{
-    image: "images/shorts/chicago-bulls.png",
-    value: 5
-},{
-    image: "images/shorts/cleveland-cavaliers.png",
-    value: 6
-},{
-    image: "images/shorts/dallas-mavericks.png",
-    value: 7
-},{
-    image: "images/shorts/denver-nuggets.png",
-    value: 8
-},{
-    image: "images/shorts/detroit-pistons.png",
-    value: 9
-},{
-    image: "images/shorts/golden-state-warriors.png",
-    value: 10
-},{
-    image: "images/shorts/houston-rockets.png",
-    value: 11
-},{
-    image: "images/shorts/indiana-pacers.png",
-    value: 12
-},{
-    image: "images/shorts/los-angeles-clippers.png",
-    value: 13
-},{
-    image: "images/shorts/los-angeles-lakers.png",
-    value: 14
-},{
-    image: "images/shorts/memphis-grizzlies.png",
-    value: 15
-},{
-    image: "images/shorts/miami-heat.png",
-    value: 16
-},{
-    image: "images/shorts/milwaukee-bucks.png",
-    value: 17
-},{
-    image: "images/shorts/minnesota-timberwolves.png",
-    value: 18
-},{
-    image: "images/shorts/new-orleans-pelicans.png",
-    value: 19
-},{
-    image: "images/shorts/new-york-knicks.png",
-    value: 20
-},{
-    image: "images/shorts/oklahoma-city-thunder.png",
-    value: 21
-},{
-    image: "images/shorts/orlando-magic.png",
-    value: 22
-},{
-    image: "images/shorts/philadelphia-sixers.png",
-    value: 23
-},{
-    image: "images/shorts/phoenix-suns.png",
-    value: 24
-},{
-    image: "images/shorts/san-antonio-spurs.png",
-    value: 25
-},{
-    image: "images/shorts/toronto-raptors.png",
-    value: 26
-},{
-    image: "images/shorts/utah-jazz.png",
-    value: 27
-},{
-    image: "images/shorts/washington-wizards.png",
-    value: 28
-},{
-    image: "images/shorts/portland-trail-blazers.png",
-    value: 29
-},{
-    image: "images/shorts/sacramento-kings.png",
-    value: 30
-}
-];
+        image: "images/shorts/atlanta-hawks.png",
+        value: 1
+    }, {
+        image: "images/shorts/bostons-celtics.png",
+        value: 2
+    },{
+        image: "images/shorts/brooklyn-nets.png", 
+        value: 3
+    },{
+        image: "images/shorts/charlotte-hornets.png",
+        value: 4
+    },{
+        image: "images/shorts/chicago-bulls.png",
+        value: 5
+    },{
+        image: "images/shorts/cleveland-cavaliers.png",
+        value: 6
+    },{
+        image: "images/shorts/dallas-mavericks.png",
+        value: 7
+    },{
+        image: "images/shorts/denver-nuggets.png",
+        value: 8
+    },{
+        image: "images/shorts/detroit-pistons.png",
+        value: 9
+    },{
+        image: "images/shorts/golden-state-warriors.png",
+        value: 10
+    },{
+        image: "images/shorts/houston-rockets.png",
+        value: 11
+    },{
+        image: "images/shorts/indiana-pacers.png",
+        value: 12
+    },{
+        image: "images/shorts/los-angeles-clippers.png",
+        value: 13
+    },{
+        image: "images/shorts/los-angeles-lakers.png",
+        value: 14
+    },{
+        image: "images/shorts/memphis-grizzlies.png",
+        value: 15
+    },{
+        image: "images/shorts/miami-heat.png",
+        value: 16
+    },{
+        image: "images/shorts/milwaukee-bucks.png",
+        value: 17
+    },{
+        image: "images/shorts/minnesota-timberwolves.png",
+        value: 18
+    },{
+        image: "images/shorts/new-orleans-pelicans.png",
+        value: 19
+    },{
+        image: "images/shorts/new-york-knicks.png",
+        value: 20
+    },{
+        image: "images/shorts/oklahoma-city-thunder.png",
+        value: 21
+    },{
+        image: "images/shorts/orlando-magic.png",
+        value: 22
+    },{
+        image: "images/shorts/philadelphia-sixers.png",
+        value: 23
+    },{
+        image: "images/shorts/phoenix-suns.png",
+        value: 24
+    },{
+        image: "images/shorts/san-antonio-spurs.png",
+        value: 25
+    },{
+        image: "images/shorts/toronto-raptors.png",
+        value: 26
+    },{
+        image: "images/shorts/utah-jazz.png",
+        value: 27
+    },{
+        image: "images/shorts/washington-wizards.png",
+        value: 28
+    },{
+        image: "images/shorts/portland-trail-blazers.png",
+        value: 29
+    },{
+        image: "images/shorts/sacramento-kings.png",
+        value: 30
+}];
 
 // grabbing the id button "shorts" for click event
 
@@ -347,19 +344,18 @@ function shortsChange() {
 // accessories array contains objects (includes all accessories images)
 
 var accessories = [{
-    image: "images/accessories/basketball.png",
-    value: 1
-}, {
-    image: "images/accessories/drink.png",
-    value: 2
-},{
-    image: "images/accessories/trophy.png",
-    value: 3
-},{
-    image: "images/accessories/blank.png",
-    value: 4
-}
-];
+        image: "images/accessories/basketball.png",
+        value: 1
+    }, {
+        image: "images/accessories/drink.png",
+        value: 2
+    },{
+        image: "images/accessories/trophy.png",
+        value: 3
+    },{
+        image: "images/accessories/blank.png",
+        value: 4
+}];
 
 // grabbing the id button "accessories" for click event
 
@@ -385,6 +381,9 @@ function accessoriesChange() {
     }
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// FUNCTION TO SHOW CHARACTER CREATION CONTENT /////////////////////////////////
+
 //shows the creation character content
 function contentGameShows() {
 
@@ -401,22 +400,37 @@ function contentGameShows() {
     //var for hidden button view
     var buttonView = document.getElementById("buttonView");
 
+
     //if statement that changes view page of user
     if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
-        //adding a pause when someone clicks on the start game button
-        setTimeout(function(){ 
-            
-        //SHOW view of character creation content shows
-        buttonView.style.display = "block";
-        avatarView.style.display = "block";
 
-        //HIDES the button to start the game
-        startGameContainer.style.display = "none";
-        startGameButton.style.display = "none";
-        kobe.style.display = "none";
-        lebron.style.display = "none";
+        // //initial countdown number
+        var timeCounter = 4;
 
-        }, 3000);
+        // change the count down every 1 second
+        var changeTime = setInterval(function() {
+
+            // subtracting from timeCounter
+            timeCounter--;
+
+            //renders on the page 
+            document.getElementById("countDown").innerHTML = timeCounter;
+
+            if (timeCounter <= 0) {
+                clearInterval(changeTime);
+
+                //SHOW view of character creation content shows
+                buttonView.style.display = "block";
+                avatarView.style.display = "block";
+
+                //HIDES the button to start the game
+                startGameContainer.style.display = "none";
+                startGameButton.style.display = "none";
+                kobe.style.display = "none";
+                lebron.style.display = "none";
+                
+            }
+        }, 1000);
     }
 }
 

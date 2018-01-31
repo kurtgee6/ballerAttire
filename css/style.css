@@ -135,7 +135,7 @@ button:hover {
 }
 
 #startGameButton {
-    top: 3%;
+    bottom: 60px;
     left: 33%;
     position: relative;
     font-family: 'Rammetto One', cursive;
@@ -162,16 +162,26 @@ button:hover {
 
 #kobe { 
     right: 375px;
-    top: 50px;
     width: 300px;
     height: 450px;
     position: relative;
 }
 
 #lebron {
-    top: 50px;
     left: 130px;
     width: 300px;
     height: 450px;
     position: relative;
+}
+
+#countDown {
+    top: 20px;
+    color: red;
+    font-size: 230px;
+    left: 43%;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    z-index: 5;
 }
