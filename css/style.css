@@ -28,6 +28,8 @@ body {
     text-align: center;
     border-right: 1px solid black;
     padding: 25px 10px;
+    padding-top: 70px;
+    padding-bottom: 45px;
 }
 
 button {
@@ -72,11 +74,49 @@ button:hover {
 }
 
 
-.avatar {
+#avatar {
     top: 80px;
     left: 220px;
     width: 300px;
     height: 400px;
     position: relative;
     z-index: 3;
+}
+
+
+#jersey {
+    top: 78px;
+    right: 147px;
+    width: 150px;
+    height: 138px;
+    position: relative;
+    z-index: 5
+}
+
+#shorts {
+    top: 170px;
+    width: 150px;
+    height: 125px;
+    right: 303px;
+    position: relative;
+    z-index: 4
+}
+
+#hair {
+    right: 3px;
+    width: 150px;
+    bottom: 75px;
+    width: 135px;
+    height: 125px;
+    position: relative;
+    z-index: 4
+}
+
+#accessories {
+    bottom: 85px;
+    left: 200px;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    z-index: 4
 }
