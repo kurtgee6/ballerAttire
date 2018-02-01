@@ -68,7 +68,6 @@ button:hover {
     background-image: url("../images/background/bg-two.jpg");
     background-repeat: no-repeat;  
     background-size:100%;
-    opacity: 0.9;
     z-index: 1;
 }
 

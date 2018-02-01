@@ -439,8 +439,6 @@ function contentGameShows() {
 
 
 //html2Canvas
-
-//html2Canvas
 $(document).ready(function() {
 
     $( "#takeScreenShot" ).click(function() {
@@ -449,6 +447,7 @@ $(document).ready(function() {
             document.body.appendChild(canvas)
         });
 
-      });
+    });
 
 });
+
