@@ -361,3 +361,7 @@ button:hover {
         height: 140px;
     }
 }
+
+#takeScreenShot{
+    display: none;
+}

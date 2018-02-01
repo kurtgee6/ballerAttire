@@ -400,7 +400,6 @@ function contentGameShows() {
     //var for hidden button view
     var buttonView = document.getElementById("buttonView");
 
-
     //if statement that changes view page of user
     if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
 
@@ -420,17 +419,34 @@ function contentGameShows() {
                 clearInterval(changeTime);
 
                 //SHOW view of character creation content shows
+
                 buttonView.style.display = "block";
                 avatarView.style.display = "block";
+                document.getElementById("takeScreenShot").style.display = "block";
 
                 //HIDES the button to start the game
                 startGameContainer.style.display = "none";
                 startGameButton.style.display = "none";
                 kobe.style.display = "none";
                 lebron.style.display = "none";
-                
+
             }
         }, 1000);
     }
 }
 
+
+//html2Canvas
+
+//html2Canvas
+$(document).ready(function() {
+
+    $( "#takeScreenShot" ).click(function() {
+
+        html2canvas(document.querySelector("#avatarView")).then(canvas => {
+            document.body.appendChild(canvas)
+        });
+
+      });
+
+});
