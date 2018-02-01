@@ -444,11 +444,10 @@ $(document).ready(function() {
     $( "#takeScreenShot" ).click(function() {
 
         html2canvas(document.querySelector("#avatarView")).then(canvas => {
-            document.body.appendChild(canvas)
             
-            $('#test').attr('href', canvas.toDataURL("image/png"));
-            $('#test').attr('download','ballerAttire.png');
-            $('#test')[0].click();
+            $('#image').attr('href', canvas.toDataURL("image/png"));
+            $('#image').attr('download','ballerAttire.png');
+            $('#image')[0].click();
 
         });
 
