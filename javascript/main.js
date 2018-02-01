@@ -445,10 +445,17 @@ $(document).ready(function() {
 
         html2canvas(document.querySelector("#avatarView")).then(canvas => {
             document.body.appendChild(canvas)
+<<<<<<< HEAD
 
              $('#test').attr('href', canvas.toDataURL("image/png"));
             // $('#test').attr('download','Test file.png');
             // $('#test')[0].click();
+=======
+            
+            $('#test').attr('href', canvas.toDataURL("image/png"));
+            $('#test').attr('download','Test file.png');
+            $('#test')[0].click();
+>>>>>>> b3cee858a6a671e1ddda57de71fb7a799698a605
         });
 
     });
