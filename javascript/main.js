@@ -447,7 +447,7 @@ $(document).ready(function() {
             document.body.appendChild(canvas)
             
             $('#test').attr('href', canvas.toDataURL("image/png"));
-            $('#test').attr('download','Test file.png');
+            $('#test').attr('download','ballerAttire.png');
             $('#test')[0].click();
 
         });
