@@ -399,6 +399,8 @@ function contentGameShows() {
     var avatarView = document.getElementById("avatarView");
     //var for hidden button view
     var buttonView = document.getElementById("buttonView");
+    //var for take screen shot button view
+    var takeScreenShot = document.getElementById("takeScreenShot");
 
     //if statement that changes view page of user
     if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
@@ -422,7 +424,7 @@ function contentGameShows() {
 
                 buttonView.style.display = "block";
                 avatarView.style.display = "block";
-                document.getElementById("takeScreenShot").style.display = "block";
+                takeScreenShot.style.display = "block";
 
                 //HIDES the button to start the game
                 startGameContainer.style.display = "none";

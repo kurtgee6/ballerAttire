@@ -9,7 +9,7 @@ body {
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Rammetto One', cursive;
     color: #fff;
     text-shadow: #000 0px 0px 1px ;
@@ -362,6 +362,10 @@ button:hover {
     }
 }
 
-#takeScreenShot{
-    display: none;
+#takeScreenShot {
+    color: red;
+    position: relative;
+    width: 50%;
+    left: 460px;
+    margin: 20px;
 }
