@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title tag image-->
     <link rel="icon" type="image/png" href="images/spalding.png" />
-     <!-- Bootstrap source-->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-     <!-- CSS source-->
-     <link rel="stylesheet" href="css/style.css">
-     <!-- Google font -->
-     <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <!-- Bootstrap source-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Font Awessome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- CSS source-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
 
 </head>
 <body>
@@ -87,17 +89,19 @@
 
                   <!-- shorts carousel -->
                   <div class="col-5" id="boxItems" >
-                      
+                    
+                      <span id="itemTitle">SHORTS</span>
+
                       <div id="carouselOne" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block w-100" src="images/shorts/atlanta-hawks.png" alt="First slide">
+                              <img class="d-block w-100 itemImage" src="images/shorts/atlanta-hawks.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/shorts/bostons-celtics.png" alt="Second slide">
+                              <img class="d-block w-100 itemImage" src="images/shorts/bostons-celtics.png" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/shorts/brooklyn-nets.png" alt="Third slide">
+                              <img class="d-block w-100 itemImage" src="images/shorts/brooklyn-nets.png" alt="Third slide">
                             </div>
                           </div>
                           <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
@@ -110,23 +114,28 @@
                           </a>
                       </div>
 
+                      <button class="addItem" id="addShorts">
+                          <i class="fa fa-plus-circle"></i>
+                      </button>
 
                   </div>
 
                   <!-- jersey carousel -->
                   <div class="col-5" id="boxItems" >
                       
+                      <span id="itemTitle">JERSEY</span>
+
                     <!-- items carousel -->
                       <div id="carouselTwo" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block w-100" src="images/jerseys/atlanta-hawks.png" alt="First slide">
+                              <img class="d-block w-100 itemImage" src="images/jerseys/atlanta-hawks.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/jerseys/boston-celtics.png" alt="Second slide">
+                              <img class="d-block w-100 itemImage" src="images/jerseys/boston-celtics.png" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/jerseys/brooklyn-nets.png" alt="Third slide">
+                              <img class="d-block w-100 itemImageitem" src="images/jerseys/brooklyn-nets.png" alt="Third slide">
                             </div>
                           </div>
                           <a class="carousel-control-prev" href="#carouselTwo" role="button" data-slide="prev">
@@ -139,21 +148,27 @@
                           </a>
                       </div>
 
+                      <button class="addItem" id="addJersey">
+                          <i class="fa fa-plus-circle"></i>
+                      </button>
+
                   </div>
 
                   <!-- hair carousel -->
                      <div class="col-5" id="boxItems" >
                       
+                        <span id="itemTitle">HAIR</span>
+
                       <div id="carouselThree" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block w-100" src="images/hair/hair-one.png" alt="First slide">
+                              <img class="d-block w-100 itemImage" src="images/hair/hair-one.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/hair/hair-two.png" alt="Second slide">
+                              <img class="d-block w-100 itemImage" src="images/hair/hair-two.png" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/hair/hair-three.png" alt="Third slide">
+                              <img class="d-block w-100 itemImage" src="images/hair/hair-three.png" alt="Third slide">
                             </div>
                           </div>
                           <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
@@ -166,22 +181,27 @@
                           </a>
                       </div>
 
+                      <button class="addItem" id="addHair">
+                          <i class="fa fa-plus-circle"></i>
+                      </button>
 
                   </div> 
 
                   <!-- accessories carousel -->
                   <div class="col-5" id="boxItems" >
+
+                      <span id="itemTitle">ACCESSORIES</span>
                       
                       <div id="carouselFour" class="carousel slide" data-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block w-100" src="images/accessories/basketball.png" alt="First slide">
+                              <img class="d-block w-100 itemImage" src="images/accessories/basketball.png" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/accessories/drink.png" alt="Second slide">
+                              <img class="d-block w-100 itemImage" src="images/accessories/drink.png" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="images/accessories/trophy.png" alt="Third slide">
+                              <img class="d-block w-100 itemImage" src="images/accessories/trophy.png" alt="Third slide">
                             </div>
                           </div>
                           <a class="carousel-control-prev" href="#carouselFour" role="button" data-slide="prev">
@@ -194,6 +214,10 @@
                           </a>
                       </div>
 
+                      <button class="addItem" id="addAcc">
+                        <i class="fa fa-plus-circle"></i>
+                      </button>
+
                   </div>
 
                 </div>
@@ -205,11 +229,11 @@
               One of three columns
             </div>
 
+            <!-- <button>Go</button> -->
+
           </div>
     
         </div>
-
-
 
     </div>
 
