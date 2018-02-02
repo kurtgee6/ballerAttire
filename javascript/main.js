@@ -441,6 +441,12 @@ function contentGameShows() {
 //html2Canvas
 $(document).ready(function() {
 
+    //carousel for items and cart (store page)
+    $('.carousel').carousel({
+        pause: true,
+        interval: false
+    });
+
     $( "#takeScreenShot" ).click(function() {
 
         html2canvas(document.querySelector("#avatarView")).then(canvas => {
