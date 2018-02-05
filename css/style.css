@@ -220,6 +220,7 @@ canvas {
     border: 1px solid white;
     border-radius: 5px;
     padding: 30px;
+    padding-bottom: 0;
     height: 100%;
 }
 
@@ -231,42 +232,100 @@ canvas {
     text-align: center;
 }
 
-#itemContainer {
-    height: 300px;
-    margin: 10px 0px;
-}
-
-#cartContainer {
-    border: 1px solid white;
-    height: 400px;
-    margin: 20px 0px;
-}
-
+/* container for each item */
 #boxItems {
     text-align: center;
     background-color: white;
     padding: 10px;
     border: 1px solid black;
     margin: 5px 10px;
+    border-radius: 3px;
 }
 
+/* the title for each products i.e JERSEYS, SHORTS ... */
 #itemTitle {
     margin: 0px;
     color: red;
     font-family: 'Rammetto One', cursive;
 }
 
+/* margin for the items image inside carousel  */
 #carouselOne, #carouselTwo, #carouselThree, #carouselFour {
     margin: 10px;
 }
 
+/* button to add an item to your cart */
 .addItem {
     margin: 0;
     padding: 5px;
 }
 
+/* images for each item */
 .itemImage {
     height: 100px !important;
+}
+
+/********************************************************************/
+                    /* CART STYLING STARTS HERE */
+/********************************************************************/
+
+/* container for the whole cart div */
+#cartContainer {
+    background-color: white;
+    border: 1px solid white;
+    height: 400px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+/* the word My CArt */
+.myCart {
+    margin-top: 10px; 
+    margin-left: 35%;
+    color: red; 
+    font-family: 'Rammetto One', cursive;
+    font-size: 30px;
+}
+
+.cartItemContainer {
+    border: 1px solid black;
+    margin: 5px 20px;
+    margin-left: 45px;
+    border-radius: 10px;
+    padding: 5px 80px;
+    height: 150px;
+    text-align: center;
+}
+
+.cartItemContainer2 {
+    border: 1px solid black;
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 5px 80px;
+    height: 150px;
+    text-align: center;
+}
+
+.cartImage {
+    height: 90px !important;
+}
+
+/* margin for the items image inside carousel  */
+#carouselFive, #carouselSix, #carouselSeven, #carouselEight {
+    margin: 5px;
+}
+
+.deleteItem {
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+}
+
+#avatarPage {
+    padding: 5px;
+    width: 50px;
+    position: relative;
+    left: 95%;
 }
 
 /**************************************************************************************************************/
