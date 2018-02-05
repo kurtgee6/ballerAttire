@@ -37,7 +37,7 @@
               <button id="jerseyButton">JERSEY</button><br>
               <button id="shortsButton">SHORTS</button><br>
               <button id="accessoriesButton">ACCESSORIES</button><br>
-              <button id="storeButton">STORE</button>
+              <button id="storeButton" onclick="storeViewFromHome()">STORE</button>
             </div>
           </div>
 
@@ -57,12 +57,12 @@
 
 
         <!-- start game container -->
-        <div id="startGameContainer" style="display:none">
+        <div id="startGameContainer" >
 
           <!-- id for countdown numbers to appear -->
           <p id="countDown"></p>
           <!-- start game button for the user to click to get into the avatar creation content -->
-          <button id="startGameButton" onclick="contentGameShows()">Start Game</button>
+          <button id="startGameButton" onclick="storePage()">Start Game</button>
           <!-- kobe -->
           <img src="images/kobe-bryant.png" id="kobe">
           <!-- lebron -->
@@ -77,7 +77,7 @@
 
         <!-- START OF STORE CONTAINER -->
         <!-- store container -->
-        <div id="storeGameContainer"  >
+        <div id="storeGameContainer" style="display:none">
 
           <!-- title for page -->
           <p id="storeTitle">WELCOME TO THE SHOP</p>
@@ -362,7 +362,7 @@
 
           </div>
     
-          <button id="avatarPage">
+          <button id="avatarPage" onclick="home()">
               <i class="fa fa-check"></i>
           </button>
 

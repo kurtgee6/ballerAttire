@@ -381,29 +381,19 @@ function accessoriesChange() {
     }
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////// FUNCTION TO SHOW CHARACTER CREATION CONTENT /////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// FUNCTION TO SHOW CREATION PAGE /////////////////////////////////
 
 //shows the creation character content
-function contentGameShows() {
+function storePage() {
 
+    //var for storePage view
+    var storePage = document.getElementById("storeGameContainer");
     //container div for start game
     var startGameContainer = document.getElementById("startGameContainer");
-    //kobe image
-    var kobe = document.getElementById("kobe");
-    //lebron
-    var lebron = document.getElementById("lebron");
-    //var for start game button
-    var startGameButton = document.getElementById("startGameButton");
-    //var for hidden avatar view
-    var avatarView = document.getElementById("avatarView");
-    //var for hidden button view
-    var buttonView = document.getElementById("buttonView");
-    //var for take screen shot button view
-    var takeScreenShot = document.getElementById("takeScreenShot");
-
-    //if statement that changes view page of user
-    if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
+    
+    //if store is hidden
+    if (storePage.style.display === "none" ) {
 
         // //initial countdown number
         var timeCounter = 4;
@@ -420,22 +410,80 @@ function contentGameShows() {
             if (timeCounter <= 0) {
                 clearInterval(changeTime);
 
-                //SHOW view of character creation content shows
+                //SHOW view of store page 
 
-                buttonView.style.display = "block";
-                avatarView.style.display = "block";
-                takeScreenShot.style.display = "block";
+                storePage.style.display = "block" 
 
                 //HIDES the button to start the game
                 startGameContainer.style.display = "none";
-                startGameButton.style.display = "none";
-                kobe.style.display = "none";
-                lebron.style.display = "none";
 
             }
         }, 1000);
     }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// FUNCTION TO SHOW STORE PAGE FROM HOME //////////////////////////
+
+// var for store button
+ document.getElementById("storeButton").addEventListener("click", storeViewFromHome);
+
+ function storeViewFromHome() {
+        
+    //var for storePage view
+    var storePage = document.getElementById("storeGameContainer");
+    //var for avatar creationPage view
+    var avatarView = document.getElementById("avatarView");
+    //var for button creationPage view
+    var buttonView = document.getElementById("buttonView");
+    //var for screen shot button creationPage view
+    var takeScreenShot = document.getElementById("takeScreenShot");
+    //var for avatar creationPage view
+    var avatarView = document.getElementById("avatarView");
+    //var for button creationPage view
+    var buttonView = document.getElementById("buttonView");
+    //var for screen shot button creationPage view
+    var takeScreenShot = document.getElementById("takeScreenShot");
+
+
+    if (storePage.style.display === "none" ) {
+
+        storePage.style.display = "block" 
+
+        buttonView.style.display = "none";
+        avatarView.style.display = "none";
+        takeScreenShot.style.display = "none";
+
+    }
+
+ }
+
+ // var for store button
+ document.getElementById("avatarPage").addEventListener("click", home);
+
+ function home() {
+        
+    //var for storePage view
+    var storePage = document.getElementById("storeGameContainer");
+    //var for avatar creationPage view
+    var avatarView = document.getElementById("avatarView");
+    //var for button creationPage view
+    var buttonView = document.getElementById("buttonView");
+    //var for screen shot button creationPage view
+    var takeScreenShot = document.getElementById("takeScreenShot");
+
+    if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
+
+        storePage.style.display = "none" 
+
+        buttonView.style.display = "block";
+        avatarView.style.display = "block";
+        takeScreenShot.style.display = "block";
+
+    }
+
+ }
+
 
 
 //html2Canvas
