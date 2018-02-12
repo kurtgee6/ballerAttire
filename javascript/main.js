@@ -74,7 +74,7 @@ var hairs = [{
 
 // grabbing the id button "hair" for click event
 
-// document.getElementById("hairButton").addEventListener("click", hairChange);
+document.getElementById("hairButton").addEventListener("click", hairChange);
 
 //function that runs when button is clicked
 function hairChange() {
@@ -195,7 +195,7 @@ var jerseys = [{
 
 // grabbing the id button "jersey" for click event
 
-document.getElementById("jerseyButton").addEventListener("click", jerseyChange);
+// document.getElementById("jerseyButton").addEventListener("click", jerseyChange);
 
 //function that runs when button is clicked
 function jerseyChange() {
@@ -316,7 +316,7 @@ var shorts = [{
 
 // grabbing the id button "shorts" for click event
 
-document.getElementById("shortsButton").addEventListener("click", shortsChange);
+// document.getElementById("shortsButton").addEventListener("click", shortsChange);
 
 //function that runs when button is clicked
 function shortsChange() {
@@ -359,7 +359,7 @@ var accessories = [{
 
 // grabbing the id button "accessories" for click event
 
-document.getElementById("accessoriesButton").addEventListener("click", accessoriesChange);
+// document.getElementById("accessoriesButton").addEventListener("click", accessoriesChange);
 
 //function that runs when button is clicked
 function accessoriesChange() {
@@ -381,19 +381,29 @@ function accessoriesChange() {
     }
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////// FUNCTION TO SHOW CREATION PAGE /////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// FUNCTION TO SHOW CHARACTER CREATION CONTENT /////////////////////////////////
 
 //shows the creation character content
-function storePage() {
+function contentGameShows() {
 
-    //var for storePage view
-    var storePage = document.getElementById("storeGameContainer");
     //container div for start game
     var startGameContainer = document.getElementById("startGameContainer");
-    
-    //if store is hidden
-    if (storePage.style.display === "none" ) {
+    //kobe image
+    var kobe = document.getElementById("kobe");
+    //lebron
+    var lebron = document.getElementById("lebron");
+    //var for start game button
+    var startGameButton = document.getElementById("startGameButton");
+    //var for hidden avatar view
+    var avatarView = document.getElementById("avatarView");
+    //var for hidden button view
+    var buttonView = document.getElementById("buttonView");
+    //var for take screen shot button view
+    var takeScreenShot = document.getElementById("takeScreenShot");
+
+    //if statement that changes view page of user
+    if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
 
         // //initial countdown number
         var timeCounter = 4;
@@ -410,86 +420,28 @@ function storePage() {
             if (timeCounter <= 0) {
                 clearInterval(changeTime);
 
-                //SHOW view of store page 
+                //SHOW view of character creation content shows
 
-                storePage.style.display = "block" 
+                buttonView.style.display = "block";
+                avatarView.style.display = "block";
+                takeScreenShot.style.display = "block";
 
                 //HIDES the button to start the game
                 startGameContainer.style.display = "none";
+                startGameButton.style.display = "none";
+                kobe.style.display = "none";
+                lebron.style.display = "none";
 
             }
         }, 1000);
     }
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////// FUNCTION TO SHOW STORE PAGE FROM HOME //////////////////////////
-
-// var for store button
- document.getElementById("storeButton").addEventListener("click", storeViewFromHome);
-
- function storeViewFromHome() {
-        
-    //var for storePage view
-    var storePage = document.getElementById("storeGameContainer");
-    //var for avatar creationPage view
-    var avatarView = document.getElementById("avatarView");
-    //var for button creationPage view
-    var buttonView = document.getElementById("buttonView");
-    //var for screen shot button creationPage view
-    var takeScreenShot = document.getElementById("takeScreenShot");
-    //var for avatar creationPage view
-    var avatarView = document.getElementById("avatarView");
-    //var for button creationPage view
-    var buttonView = document.getElementById("buttonView");
-    //var for screen shot button creationPage view
-    var takeScreenShot = document.getElementById("takeScreenShot");
-
-
-    if (storePage.style.display === "none" ) {
-
-        storePage.style.display = "block" 
-
-        buttonView.style.display = "none";
-        avatarView.style.display = "none";
-        takeScreenShot.style.display = "none";
-
-    }
-
- }
-
- // var for store button
- document.getElementById("avatarPage").addEventListener("click", home);
-
- function home() {
-        
-    //var for storePage view
-    var storePage = document.getElementById("storeGameContainer");
-    //var for avatar creationPage view
-    var avatarView = document.getElementById("avatarView");
-    //var for button creationPage view
-    var buttonView = document.getElementById("buttonView");
-    //var for screen shot button creationPage view
-    var takeScreenShot = document.getElementById("takeScreenShot");
-
-    if (avatarView.style.display === "none" && buttonView.style.display === "none" ) {
-
-        storePage.style.display = "none" 
-
-        buttonView.style.display = "block";
-        avatarView.style.display = "block";
-        takeScreenShot.style.display = "block";
-
-    }
-
- }
-
-
 
 //html2Canvas
 $(document).ready(function() {
 
-   $( "#takeScreenShot" ).click(function() {
+    $( "#takeScreenShot" ).click(function() {
 
         html2canvas(document.querySelector("#avatarView")).then(canvas => {
 
@@ -497,10 +449,9 @@ $(document).ready(function() {
             $('#test').attr('download','Test file.png');
             $('#test')[0].click();
 
+        });
 
-      });
-
-  });
+    });
 
 });
 
