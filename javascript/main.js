@@ -27,7 +27,7 @@ var skins = [{
 
 // grabbing the id button "skin" for click event
 
-document.getElementById("skinButton").addEventListener("click", skinChange);
+// document.getElementById("skinButton").addEventListener("click", skinChange);
 
 //function that runs when button is clicked
 function skinChange() {
@@ -74,7 +74,7 @@ var hairs = [{
 
 // grabbing the id button "hair" for click event
 
-document.getElementById("hairButton").addEventListener("click", hairChange);
+// document.getElementById("hairButton").addEventListener("click", hairChange);
 
 //function that runs when button is clicked
 function hairChange() {
@@ -489,23 +489,18 @@ function storePage() {
 //html2Canvas
 $(document).ready(function() {
 
-    //carousel for items and cart (store page)
-    $('.carousel').carousel({
-        pause: true,
-        interval: false
-    });
-
-    $( "#takeScreenShot" ).click(function() {
+   $( "#takeScreenShot" ).click(function() {
 
         html2canvas(document.querySelector("#avatarView")).then(canvas => {
-            
-            $('#image').attr('href', canvas.toDataURL("image/png"));
-            $('#image').attr('download','ballerAttire.png');
-            $('#image')[0].click();
 
-        });
+            $('#test').attr('href', canvas.toDataURL("image/png"));
+            $('#test').attr('download','Test file.png');
+            $('#test')[0].click();
 
-    });
+
+      });
+
+  });
 
 });
 

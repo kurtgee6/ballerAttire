@@ -1,3 +1,6 @@
+* {
+    font-family: 'Rammetto One', cursive;
+}
 
 
 body {
@@ -11,7 +14,6 @@ body {
     padding: 5px;
     border-radius: 10px;
     font-size: 70px;
-    font-family: 'Rammetto One', cursive;
     color: #fff;
     text-shadow: #000 0px 0px 1px ;
 }
@@ -31,7 +33,6 @@ body {
 }
 
 button {
-    font-family: 'Rammetto One', cursive;
     margin: 15px 0px;
     padding: 10px;
     width: 60%;
@@ -140,7 +141,6 @@ button:hover {
     bottom: 60px;
     left: 33%;
     position: relative;
-    font-family: 'Rammetto One', cursive;
     font-size: 40px;
     padding: 10px;
     width: 30%;
@@ -179,7 +179,6 @@ button:hover {
 }
 
 #countDown {
-    font-family: 'Rammetto One', cursive;
     top: 50px;
     color: red;
     font-size: 230px;
@@ -192,6 +191,39 @@ button:hover {
 }
 
 /*******************************************************************************************/
+/************************************** hair modal  ****************************************/
+/*******************************************************************************************/
+.modal-body {
+    background-color: #DCDCDC;
+}
+
+#modal-window {
+    padding: 20px 20px;
+    overflow-y:auto;
+    height:450px;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+.mdl-img {
+    padding: 5px;
+}
+
+.mdl-img:hover {
+    border: solid lightskyblue;
+}
+
+.mdl-img:focus {
+    border: solid lightseagreen;
+    outline: none;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+
 /************************************** screenshots ****************************************/
 /*******************************************************************************************/
 
